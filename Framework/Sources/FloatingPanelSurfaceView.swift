@@ -85,9 +85,6 @@ public class FloatingPanelSurfaceView: UIView {
     /// content view.
     public var containerView: UIView!
 
-    @available(*, unavailable, renamed: "containerView")
-    public var backgroundView: UIView!
-
     private var containerViewTopInsetConstraint: NSLayoutConstraint!
     private var containerViewHeightConstraint: NSLayoutConstraint!
 
