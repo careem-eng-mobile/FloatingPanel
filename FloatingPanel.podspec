@@ -12,7 +12,7 @@ The new interface displays the related contents and utilities in parallel as a u
 
   s.platform            = :ios, "11.0"
   s.source              = { :git => "https://github.com/careem/FloatingPanel.git", :tag => "v#{s.version}" }
-  s.source_files        = "Framework/Sources/*.swift"
+  s.source_files        = "Sources/FloatingPanel/*.swift"
   s.swift_version       = "5.0"
   s.pod_target_xcconfig = { 'APPLICATION_EXTENSION_API_ONLY' => 'YES' }
 
